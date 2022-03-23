@@ -1,0 +1,73 @@
+md Todo
+cd Todo
+md Todo.Domain
+md Todo.Domain.Tests
+md Todo.Domain.Infra
+md Todo.Domain.Api
+
+cd .\Todo.Domain\
+dotnet new classlib
+
+cd ..
+cd .\Todo.Domain.Api\
+dotnet new webapi
+
+cd ..
+cd .\Todo.Domain.Infra\
+dotnet new classlib
+
+cd ..
+cd .\Todo.Domain.Tests\
+dotnet new mstest
+
+cd ..
+dotnet new sln
+
+dotnet sln add .\Todo.Domain\Todo.Domain.csproj
+dotnet sln add .\Todo.Domain.Api\Todo.Domain.Api.csproj
+dotnet sln add .\Todo.Domain.Infra\Todo.Domain.Infra.csproj
+dotnet sln add .\Todo.Domain.Tests\Todo.Domain.Tests.csproj
+
+
+cd .\Todo.Domain.Api\ 
+dotnet add reference ..\Todo.Domain\
+dotnet add reference ..\Todo.Domain.Infra\
+
+cd ..
+cd .\Todo.Domain.Infra\ 
+dotnet add reference ..\Todo.Domain\
+
+cd ..
+cd .\Todo.Domain.Tests\ 
+dotnet add reference ..\Todo.Domain\
+
+cd ..
+cd .\Todo.Domain\ 
+dotnet add package flunt
+
+cd .\Todo.Domain.Api\ 
+dotnet add reference ..\Todo.Domain\
+dotnet add reference ..\Todo.Domain.Infra\
+
+dotnet add package Microsoft.EntityFrameworkCore.InMemory
+dotnet add package Microsoft.EntityFrameworkCore.Relational
+dotnet add package Microsoft.EntityFrameworkCore.Design
+
+
+cd .\Todo.Domain.Api\ 
+dotnet add reference ..\Todo.Domain\
+dotnet add reference ..\Todo.Domain.Infra\
+
+dotnet add package Microsoft.EntityFrameworkCore.InMemory
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+
+dotnet tool uninstall --global dotnet-ef
+dotnet tool install --global dotnet-ef
+
+API - dotnet add package Microsoft.EntityFrameworkCore.Design
+INFRA --> dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+INFRA --> dotnet ef migrations add InitialCreate --startup-project ..\Todo.Domain.Api\
+INFRA --> dotnet ef database update --startup-project ..\Todo.Domain.Api\
+
+API --> dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer
+

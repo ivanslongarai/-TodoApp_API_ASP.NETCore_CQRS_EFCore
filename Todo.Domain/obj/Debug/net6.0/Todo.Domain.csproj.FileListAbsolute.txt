@@ -1,0 +1,12 @@
+D:\BALTA-IO\TodoAppAPIcomASP.NETCoreCQRSEFCore\Todo\Todo.Domain\bin\Debug\net6.0\Todo.Domain.deps.json
+D:\BALTA-IO\TodoAppAPIcomASP.NETCoreCQRSEFCore\Todo\Todo.Domain\bin\Debug\net6.0\Todo.Domain.dll
+D:\BALTA-IO\TodoAppAPIcomASP.NETCoreCQRSEFCore\Todo\Todo.Domain\bin\Debug\net6.0\Todo.Domain.pdb
+D:\BALTA-IO\TodoAppAPIcomASP.NETCoreCQRSEFCore\Todo\Todo.Domain\obj\Debug\net6.0\Todo.Domain.csproj.AssemblyReference.cache
+D:\BALTA-IO\TodoAppAPIcomASP.NETCoreCQRSEFCore\Todo\Todo.Domain\obj\Debug\net6.0\Todo.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\BALTA-IO\TodoAppAPIcomASP.NETCoreCQRSEFCore\Todo\Todo.Domain\obj\Debug\net6.0\Todo.Domain.AssemblyInfoInputs.cache
+D:\BALTA-IO\TodoAppAPIcomASP.NETCoreCQRSEFCore\Todo\Todo.Domain\obj\Debug\net6.0\Todo.Domain.AssemblyInfo.cs
+D:\BALTA-IO\TodoAppAPIcomASP.NETCoreCQRSEFCore\Todo\Todo.Domain\obj\Debug\net6.0\Todo.Domain.csproj.CoreCompileInputs.cache
+D:\BALTA-IO\TodoAppAPIcomASP.NETCoreCQRSEFCore\Todo\Todo.Domain\obj\Debug\net6.0\Todo.Domain.dll
+D:\BALTA-IO\TodoAppAPIcomASP.NETCoreCQRSEFCore\Todo\Todo.Domain\obj\Debug\net6.0\refint\Todo.Domain.dll
+D:\BALTA-IO\TodoAppAPIcomASP.NETCoreCQRSEFCore\Todo\Todo.Domain\obj\Debug\net6.0\Todo.Domain.pdb
+D:\BALTA-IO\TodoAppAPIcomASP.NETCoreCQRSEFCore\Todo\Todo.Domain\obj\Debug\net6.0\ref\Todo.Domain.dll

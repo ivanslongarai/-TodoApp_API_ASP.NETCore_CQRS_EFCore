@@ -1,0 +1,23 @@
+General  - Creating "Projects Structure"
+Domain   - Creating "Entities"
+Domain   - Creating "Commands Contracts"
+Domain   - Creating "Commands"
+Tests    - Testing  "Commands"
+Domain   - Creating "Repositories Contracts"
+Domain   - Creating "Handlers"
+Tests    - Creating "Fake repository"
+Tests    - Testing  "Handlers"
+Tests    - Testing  "Entities"
+Domain   - Creating "Queries"
+Domain   - Creating "Expressions"
+Tests    - Testing  "Queries Expressions"
+Infra    - Create DataContext
+Infra    - Create Repository (using DataContext and Queries Expressions)
+API      - Creating "Controllers "
+API      - Testing "Controllers" Swagger, Postman in EF InMemory
+API      - Configuring to use SqlServer
+INFRA    - Creating and executing Migrations 
+FIREBASE - Config Firebase for Google
+API      - Set Controller to use Authorization
+API      - Testing Api
+
